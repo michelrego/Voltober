@@ -43,6 +43,7 @@ String validatepass(value){
           title: Text("LOGIN",
             style: kDashTitleTextStyle,
           ),
+          centerTitle: true,
           elevation: 0,
           brightness: Brightness.light,
           backgroundColor: kTitleColour,
