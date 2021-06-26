@@ -52,7 +52,9 @@ class _DashboardState extends State<Dashboard> {
                     height: 250,
                     child: ReusableCard(
                       colour: kCardColour,
-                      onPress: () {},
+                      onPress: () {
+                        Navigator.pushNamed(context, '/eleven'); 
+                      },
                       cardChild: IconContent(
                         icon: FontAwesomeIcons.screwdriver,
                         label: 'CREATE',
