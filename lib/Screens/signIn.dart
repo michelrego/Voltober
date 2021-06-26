@@ -45,6 +45,7 @@ class _SignupState extends State<Signup> {
         title: Text("SIGN-IN",
           style: kDashTitleTextStyle,
         ),
+        centerTitle: true,
         elevation: 0,
         brightness: Brightness.light,
         backgroundColor: kTitleColour,
@@ -68,7 +69,7 @@ class _SignupState extends State<Signup> {
           children: <Widget>[
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 0,vertical: 8.0),
-              child: Text("Welcome Back!",
+              child: Text("Welcome To Voltober!",
                 style:kDashTitleTextStyle,),
             ),
             Container(
