@@ -38,6 +38,7 @@ class Voltober extends StatelessWidget {
           '/nine':(context)=>Orphanage(),
           '/ten':(context)=>Corona(),
           '/output':(context)=>Output(),
+          '/eleven': (context) => Create()
         }
     );
   }
