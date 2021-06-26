@@ -51,7 +51,7 @@ class Events extends StatelessWidget {
                             },
                             cardChild:IconContent(
                               icon: FontAwesomeIcons.dumpster ,
-                              label: 'RoadSide Cleaning',
+                              label: 'Road Cleaning',
                             ),
                           ),),
                         ],
@@ -67,7 +67,7 @@ class Events extends StatelessWidget {
                             },
                             cardChild:IconContent(
                               icon: FontAwesomeIcons.umbrellaBeach ,
-                              label: 'BeachSide Cleaning',
+                              label: 'Beach Cleaning',
                             ),
                           ),),
                           Expanded(child:
