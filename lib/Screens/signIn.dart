@@ -45,6 +45,7 @@ class _SignupState extends State<Signup> {
         title: Text("SIGN-IN",
           style: kDashTitleTextStyle,
         ),
+        centerTitle: true,
         elevation: 0,
         brightness: Brightness.light,
         backgroundColor: kTitleColour,
