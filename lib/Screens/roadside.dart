@@ -20,6 +20,7 @@ class _RoadsideState extends State<Roadside> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Text('Roadside Cleaning', style: kDashTitleTextStyle),
       ),
       body: Container(
