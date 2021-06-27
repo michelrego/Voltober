@@ -20,6 +20,7 @@ class _OldageState extends State<Oldage> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor:kTitleColour,
+        centerTitle: true,
         title: Text('Oldage Homes', style: kDashTitleTextStyle),
       ),
       body: Container(
