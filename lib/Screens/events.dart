@@ -16,6 +16,7 @@ class Events extends StatelessWidget {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Padding(
           padding: const EdgeInsets.all(50.0),
           child: Text('EVENTS',
