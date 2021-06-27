@@ -20,6 +20,7 @@ class _CoronaState extends State<Corona> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Text('Covid Help', style: kDashTitleTextStyle),
       ),
       body: Container(
