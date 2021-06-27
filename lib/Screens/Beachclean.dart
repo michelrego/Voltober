@@ -20,6 +20,7 @@ class _BeachState extends State<Beach> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Text('BEACH CLEANING', style: kDashTitleTextStyle),
       ),
       body: Container(
