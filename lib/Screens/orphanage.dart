@@ -20,6 +20,7 @@ class _OrphanageState extends State<Orphanage> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Text('Orphanages', style: kDashTitleTextStyle),
       ),
       body: Container(
