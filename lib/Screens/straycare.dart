@@ -20,6 +20,7 @@ class _StraycareState extends State<Straycare> {
       drawer: NavDrawer(),
       appBar: AppBar(
         backgroundColor: kTitleColour,
+        centerTitle: true,
         title: Text('STRAY CARE', style: kDashTitleTextStyle,
         ),
       ),
